@@ -189,3 +189,50 @@ nav ul li {
     font-weight: 400;
     margin-top: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+
+
+
+.final-text{
+    font-size: 4rem;
+    color: #3d4fcf;
+    margin-top: 20px;
+    text-align: center;
+}
+.final-p{
+    justify-content: center;
+    color: #a39898;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer a {
+    color: #a39898;
+    text-decoration: none;
+}
