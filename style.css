@@ -65,16 +65,13 @@ nav ul li {
 }*/
 .banner {
     position: relative;
-    /* use relative for normal flow after nav */
     margin-top: 20px;
-    /* space after nav */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 1rem;
-    /* make text smaller */
     padding: 10px 20px;
 }
 
@@ -112,10 +109,11 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;           /* adds space between text and image */
-    padding: 40px 0;     /* vertical spacing (optional) */
+    gap: 40px;
+    padding: 40px 0;
     width: 80%;
-    margin: 0 auto;    /* allows stacking on small screens */
+    margin: 0 auto;
+
 }
 
 .action-text {
@@ -141,8 +139,53 @@ nav ul li {
 }*/
 .action-image img {
     width: 100%;
-    max-width: 200px; /* adjust this based on your layout */
+    max-width: 300px;
     border-radius: 20px;
     height: auto;
     display: block;
+}
+
+.box {
+    width: 800px;
+    height: 300px;
+    border: none;
+    background-color: rgb(208, 208, 239);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.box {
+    background-color: #f4f6ff;
+    border-radius: 15px;
+    padding: 40px 20px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.box h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.stats li {
+    font-size: 4rem;
+    color: #3d4fcf;
+    font-weight: 700;
+}
+.label {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    margin-top: 5px;
 }
